@@ -1,0 +1,40 @@
+{
+  "infoList": [
+    {
+      "panelTypeString": "LoginPanel",
+      "path": "UIPanel/LoginPanel"
+    },
+    {
+      "panelTypeString": "RegPanel",
+      "path": "UIPanel/RegPanel"
+    },
+    {
+      "panelTypeString": "PreMenuPanel",
+      "path": "UIPanel/PreMenuPanel"
+    },
+    {
+      "panelTypeString": "MainPanel",
+      "path": "UIPanel/MainPanel"
+    },
+    {
+      "panelTypeString": "SerachUserPanel",
+      "path": "UIPanel/SerachUserPanel"
+    },
+    {
+      "panelTypeString": "ChatPanel",
+      "path": "UIPanel/ChatPanel"
+    },
+    {
+      "panelTypeString": "DisplayPanel",
+      "path": "UIPanel/DisplayPanel"
+    },
+    {
+      "panelTypeString": "AnChatPanel",
+      "path": "UIPanel/AnChatPanel"
+    },
+    {
+      "panelTypeString": "SearchFriendPanel",
+      "path": "UIPanel/SearchFriendPanel"
+    }
+  ]
+}
