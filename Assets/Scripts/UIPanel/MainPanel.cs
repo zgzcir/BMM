@@ -170,7 +170,7 @@ public class MainPanel : BasePanel
             g.transform.localScale=Vector3.one;
 
 #if UNITY_ANDROID||UNITY_STANDALONE_WIN||UNITY_EDITOR
-            content.sizeDelta = new Vector2(content.sizeDelta.x, +content.sizeDelta.y + 150);
+//            content.sizeDelta = new Vector2(content.sizeDelta.x, +content.sizeDelta.y + 150);
 #endif
 #if MAYBENO
             content.sizeDelta = new Vector2(content.sizeDelta.x, +content.sizeDelta.y + 65);

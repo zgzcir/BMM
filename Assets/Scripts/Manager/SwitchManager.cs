@@ -10,9 +10,6 @@ public class SwitchManager : BaseManager
     {
 
     }
-    
-    
-    
 
     public UserType userType;
 

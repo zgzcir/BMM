@@ -21,7 +21,7 @@ public class BaseItem : MonoBehaviour
         set { uiMng = value; }
     }
 
-    public void DestroyMe()
+    public void DestroyMe() 
     {if(isDestructible)
         Destroy(gameObject);
     }

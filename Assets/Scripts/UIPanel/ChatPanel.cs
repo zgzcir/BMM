@@ -196,7 +196,7 @@ public class ChatPanel : BasePanel
     {
         GameObject g = Instantiate(frItem);
         g.transform.SetParent(parent.transform);
-        content.sizeDelta = new Vector2(content.sizeDelta.x, +content.sizeDelta.y + 170);
+//        content.sizeDelta = new Vector2(content.sizeDelta.x, +content.sizeDelta.y + 170);
         g.transform.localScale = Vector3.one;
 
         g.GetComponent<ChatFriendItem>().Structure(message, uiMng, facade, facade.GetType());
@@ -207,7 +207,7 @@ public class ChatPanel : BasePanel
     {
         GameObject g = Instantiate(selfItem);
         g.transform.SetParent(parent.transform);
-        content.sizeDelta = new Vector2(content.sizeDelta.x, +content.sizeDelta.y + 170);
+//        content.sizeDelta = new Vector2(content.sizeDelta.x, +content.sizeDelta.y + 170);
         g.transform.localScale = Vector3.one;
         g.GetComponent<ChatSelfItem>().Structure(message, uiMng, facade, facade.GetType());
         chatSelfItems.Add(g.GetComponent<ChatSelfItem>());
@@ -244,7 +244,7 @@ public class ChatPanel : BasePanel
 //        kuSelf.text = "使用自制手势库";
 //        kuSystem.text = "使用默认手势库";
     }
-
+                    
     public void OnCleanClick()
     {
         qingKong.SetActive(true);
@@ -255,7 +255,6 @@ public class ChatPanel : BasePanel
         LeapMotionController.transform.localPosition = tran.position;
         canvas.renderMode = RenderMode.ScreenSpaceCamera;
     }
-
     public void MesDestroy()
     {
         message.SetActive(false);
